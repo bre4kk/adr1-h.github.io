@@ -3,12 +3,6 @@ title:          gh0st's articles
 description:    "Hello World"
 url:            https://gh0stx86.github.io
 
-# Author
-author:
-  name:         Inela Avdic Hukic
-  email:        inelaah@gmail.com
-  url:          https://inelaah.com
-
 # Build settings
 markdown:       kramdown
 

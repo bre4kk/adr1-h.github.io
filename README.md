@@ -15,9 +15,7 @@ gem "jekyll"
 gem "jekyll-feed"
 gem "jekyll-paginate"
 ```
-
 5. Remove rain.gemspec file.
-
 6. Go into the project directory and execute the following commands:
 ```
 bundle install
