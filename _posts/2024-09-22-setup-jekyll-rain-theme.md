@@ -1,26 +1,31 @@
+---
+layout: post
+title: "Setup Jekyll Rain Theme"
+author: "gh0st"
+---
 ## Setup
 Here are the steps I followed to configure the website locally as it gave me plenty of errors with the default configuration.
 1. Install the latest stable version of Ruby (Ruby+Devkit)
 2. Run the ridk install step on the last stage of the installation wizard. From the options choose:
-```
-MSYS2 and MINGW development toolchain
-```
+   ```
+   MSYS2 and MINGW development toolchain
+   ```
 3. Open a new command prompt window from the start menu, so that changes to the PATH environment variable becomes effective. Install Jekyll and Bundler using:
-```
-gem install jekyll bundler
-```
+   ```ruby
+   gem install jekyll bundler
+   ```
 4. Replace the contents of the Gemfile with the following:
-```
-gem "jekyll"
-gem "jekyll-feed"
-gem "jekyll-paginate"
-```
+   ```ruby
+   gem "jekyll"
+   gem "jekyll-feed"
+   gem "jekyll-paginate"
+   ```
 5. Remove rain.gemspec file.
 6. Go into the project directory and execute the following commands:
-```
-bundle install
-bundle exec jekyll serve
-```
+   ```ruby
+   bundle install
+   bundle exec jekyll serve
+   ```
 7. Head over to http://127.0.0.1:4000/ to see your page.
 
 ## Create new page
@@ -28,26 +33,26 @@ Here is how to create an additional page. In this case I will create an ‘About
 1. Create a new folder called _pages
 2. Create a new file inside this folder called, for example, aboutme.md
 3. Add the following content inside the aboutme.md file:
-```
----
-layout: default    # Reference to the layout file in _layouts/default.html
-title: "About Me"
-permalink: /aboutme/
----
+   ```markdown
+   ---
+   layout: default    # Reference to the layout file in _layouts/default.html
+   title: "About Me"
+   permalink: /aboutme/
+   ---
 
-<!-- Content of the About Me page -->
-Welcome to my About Me page!
-```
+   <!-- Content of the About Me page -->
+   Welcome to my About Me page!
+   ```
 4. Make sure the layout is set to "default" (or whatever layout name you are using) in the _layouts directory.
 5. Update the navigation bar at _layouts/default.html. Add the following element to the navigation bar:
-```html
-<li><a href="{{ site.url }}/aboutme/">About Me</a></li>
-```
+   ```html
+   <li><a href="{{ site.url }}/aboutme/">About Me</a></li>
+   ```
 6. Add the following to your _config.yml file:
-```
-include:
+   ```yml
+   include:
   - _pages
-```
+   ```
 
 ## Update fontawesome icons
 Update _includes/head.html:
