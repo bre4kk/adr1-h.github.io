@@ -28,7 +28,7 @@ bundle exec jekyll serve
 ## Create new page
 Below is how to create an additional page. In this case I'm going to create an "About Me" page.
 1. Create new folder called _pages
-2. Create new file inside this folder called, for example, aboutme.md.
+2. Create new file inside this folder called, for example, aboutme.md
 3. Add the following content inside the aboutme.md file:
 ```
 ---
