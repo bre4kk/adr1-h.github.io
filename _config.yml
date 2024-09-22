@@ -1,7 +1,7 @@
 # Site settings
-title:          Rain
-description:    "Rain is a simple and clean Jekyll theme with focus on content."
-url:            https://github.com/inelaah/rain
+title:          gh0st's articles
+description:    "Hello World"
+url:            https://gh0stx86.github.io/
 
 # Author
 author:
@@ -25,16 +25,17 @@ plugins:
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
-paginate:       5
-
-# Related posts settings
-related_posts_section:
-  max_count:        5
-  min_common_tags:  2
+paginate:       20
 
 # Links to social media
 social:
   email: inelaah@gmail.com
-  github: https://github.com/inelaah
-  twitter: https://twitter.com
-  linkedin: https://ba.linkedin.com/in/inela-avdic-hukic-322354131
+  github: https://github.com/gh0stx86
+  twitter: https://x.com/gh0stx86
+  twitch: https://www.twitch.tv/gh0stx86
+  youtube: https://www.youtube.com/@gh0st_pwn
+  buymeacoffee: https://buymeacoffee.com/gh0stx
+
+include:
+  - _pages
+
