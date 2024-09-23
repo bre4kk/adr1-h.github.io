@@ -28,7 +28,7 @@ Here is how to create an additional page. In this case I will create an ‘About
 _includes
 _layouts
 _pages
-aboutme.md
+  aboutme.md
 _posts
 ...
 _config.yml
