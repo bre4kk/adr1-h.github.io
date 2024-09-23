@@ -54,11 +54,11 @@ Here is how to create an additional page. In this case I will create an ‘About
    ```
 4. Make sure the layout is set to `default` (or whatever layout name you are using) in the `_layouts` directory.
 5. Update the navigation bar at `_layouts/default.html`. Add the following element to the navigation bar:
-   ```html
    {% raw %}
+   ```html
    <li><a href="{{ site.url }}/aboutme/">About Me</a></li>
-   {% endraw %}
    ```
+   {% endraw %}
 6. Lastly, add the following to your _config.yml file:
    ```yml
    include:
