@@ -13,6 +13,7 @@ $code-color: #bf616a;
 // Fonts
 $sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
 $monospaced: Menlo, Monaco, monospace;
+$consolas: 'Consolas', 'Courier New', Courier, monospace;
 
 @mixin box-sizing($type: border-box) {
   -webkit-box-sizing: $type;

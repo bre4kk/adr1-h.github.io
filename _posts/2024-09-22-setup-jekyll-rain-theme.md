@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Setup Jekyll Rain Theme"
+description: "In this article we are going to see how to configure the Rain theme for Jekyll. We will also cover how to create new pages and update the Font Awesome icons."
 author: "gh0st"
 ---
 ## Setup
