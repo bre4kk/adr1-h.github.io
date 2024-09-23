@@ -53,7 +53,7 @@ Welcome to my About Me page!
 6. Lastly, add the following to your _config.yml file:
 ```yml
 include:
-- _pages
+  - _pages
 ```
 
 ## Update Font Awesome icons
