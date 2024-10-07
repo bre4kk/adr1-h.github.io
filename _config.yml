@@ -1,7 +1,7 @@
 # Site settings
-title:          gh0st's articles
+title:          fky0u's articles
 description:    "Hello World"
-url:            https://gh0stx86.github.io
+url:            https://fky0u.github.io
 
 # Build settings
 markdown:       kramdown
