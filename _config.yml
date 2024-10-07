@@ -23,12 +23,12 @@ paginate:       20
 
 # Links to social media
 social:
-  email: inelaah@gmail.com
-  github: https://github.com/gh0stx86
-  twitter: https://x.com/gh0stx86
-  twitch: https://www.twitch.tv/gh0stx86
-  youtube: https://www.youtube.com/@gh0st_pwn
-  buymeacoffee: https://buymeacoffee.com/gh0stx
+  email: temp@gmail.com
+  github: https://github.com/fky0u
+  twitter: https://x.com/fky0u
+  twitch: https://www.twitch.tv/fky0u_
+  youtube: https://www.youtube.com/fky0u1
+  buymeacoffee: https://buymeacoffee.com/fky0u
 
 include:
   - _pages
