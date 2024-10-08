@@ -1,7 +1,7 @@
 # Site settings
-title:          g04t's articles
+title:          g04ty's articles
 description:    "Hello World"
-url:            https://hg04t.github.io
+url:            https://g04ty.github.io
 
 # Build settings
 markdown:       kramdown
@@ -24,11 +24,11 @@ paginate:       20
 # Links to social media
 social:
   email: temp@gmail.com
-  github: https://github.com/hg04t
-  twitter: https://x.com/hg04t
-  twitch: https://www.twitch.tv/hg04t
-  youtube: https://www.youtube.com/hg04t
-  buymeacoffee: https://buymeacoffee.com/hg04t
+  github: https://github.com/g04ty
+  twitter: https://x.com/g04ty
+  twitch: https://www.twitch.tv/g04ty_
+  youtube: https://www.youtube.com/g04ty
+  buymeacoffee: https://buymeacoffee.com/g04ty
 
 include:
   - _pages
