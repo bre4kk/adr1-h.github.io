@@ -1,5 +1,5 @@
 # Site settings
-title:          fky0u's articles
+title:          hg04t's articles
 description:    "Hello World"
 url:            https://hg04t.github.io
 
@@ -24,11 +24,11 @@ paginate:       20
 # Links to social media
 social:
   email: temp@gmail.com
-  github: https://github.com/fky0u
-  twitter: https://x.com/fky0u
-  twitch: https://www.twitch.tv/fky0u_
-  youtube: https://www.youtube.com/fky0u1
-  buymeacoffee: https://buymeacoffee.com/fky0u
+  github: https://github.com/hg04t
+  twitter: https://x.com/hg04t
+  twitch: https://www.twitch.tv/hg04t
+  youtube: https://www.youtube.com/hg04t
+  buymeacoffee: https://buymeacoffee.com/hg04t
 
 include:
   - _pages
