@@ -1,7 +1,7 @@
 # Site settings
-title:          g04ty's articles
+title:          adr1's articles
 description:    "Hello World"
-url:            https://g04ty.github.io
+url:            https://adr1-h.github.io
 
 # Build settings
 markdown:       kramdown
@@ -24,11 +24,11 @@ paginate:       20
 # Links to social media
 social:
   email: temp@gmail.com
-  github: https://github.com/g04ty
-  twitter: https://x.com/g04ty
-  twitch: https://www.twitch.tv/g04ty_
-  youtube: https://www.youtube.com/g04ty
-  buymeacoffee: https://buymeacoffee.com/g04ty
+  github: https://github.com/adr1-h
+  twitter: https://x.com/adr1_h
+  twitch: https://www.twitch.tv/adr1_h_
+  youtube: https://www.youtube.com/adr1-h
+  buymeacoffee: https://buymeacoffee.com/adr1-h
 
 include:
   - _pages
