@@ -1,7 +1,7 @@
 # Site settings
-title:          adr1's articles
+title:          bre4k's articles
 description:    "Hello World"
-url:            https://adr1-h.github.io
+url:            https://bre4kk.github.io
 
 # Build settings
 markdown:       kramdown
@@ -24,11 +24,11 @@ paginate:       20
 # Links to social media
 social:
   email: temp@gmail.com
-  github: https://github.com/adr1-h
-  twitter: https://x.com/adr1_h
-  twitch: https://www.twitch.tv/adr1_h_
-  youtube: https://www.youtube.com/adr1-h
-  buymeacoffee: https://buymeacoffee.com/adr1-h
+  github: https://github.com/bre4kk
+  twitter: https://x.com/bre4kk_
+  twitch: https://www.twitch.tv/bre4kk_
+  youtube: https://www.youtube.com/bre4kk
+  buymeacoffee: https://buymeacoffee.com/bre4k
 
 include:
   - _pages
